@@ -23,6 +23,7 @@ export default function WeatherForm({ onChangeCity }) {
         type="text"
         value={city}
         onChange={handleChange}
+        placeholder="Buenos Aires"
       />
     </form>
   );
